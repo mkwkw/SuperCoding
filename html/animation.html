@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="EUC-KR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        @keyframes moving-logo{
+            from{
+                transform: scale(0.2);
+            }
+            to{
+                transform: scale(2) rotateX('360deg');
+            }
+        }
+        img{
+            width: 100px;
+            animation: moving-logo 1s infinite alternate; 
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/2088/2088595.png" alt="">
+    </div>
+</body>
+</html>
