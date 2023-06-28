@@ -8,6 +8,12 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
+:root{ 
+    /*색상 변수*/
+    --button-primary: rgb(254,111,15);
+    --button-hover: rgba(254,111,15,0.8);
+}
+
 .media-info-msg{
     position: fixed;
     top: 0;
