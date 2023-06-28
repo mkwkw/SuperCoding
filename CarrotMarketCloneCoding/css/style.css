@@ -21,7 +21,7 @@ body{
     background-color: salmon;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
     .media-info-msg{
         opacity: 0; /*평소에는 메시지 안보이도록*/
     }
