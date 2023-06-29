@@ -1,4 +1,4 @@
-/*ÁøÀÔÁ¡¿¡¼­ ÀÛµ¿ÇÏ´Â css*/
+/*import css*/
 @import "reset.css";
 @import "header.css";
 @import "footer.css";
@@ -9,7 +9,7 @@ body{
 }
 
 :root{ 
-    /*»ö»ó º¯¼ö*/
+    /*ìƒ‰ìƒë³€ìˆ˜ ì„ ì–¸*/
     --button-primary: rgb(254,111,15);
     --button-hover: rgba(254,111,15,0.8);
 }
@@ -29,6 +29,6 @@ body{
 
 @media screen and (max-width: 500px) {
     .media-info-msg{
-        display: none; /*Æò¼Ò¿¡´Â ¸Ş½ÃÁö ¾Èº¸ÀÌµµ·Ï*/
+        display: none; /*í‰ìƒì‹œì—ëŠ” ì•ˆë³´ì´ë„ë¡*/
     }
 }
