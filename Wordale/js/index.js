@@ -36,8 +36,12 @@ function appStart() {
     displayGameover();
   };
 
-  const handleEnterKey = () => {
+  const handleEnterKey = async() => {
     let 맞은_개수 = 0;
+    const 응답 = await fetch('/answer')
+    const 정답_객체 = await 응답.json();
+    const 정답 = 정답_객체.answer;
+
     //정답 확인
     for (let i = 0; i < 5; i++) {
       const block = document.querySelector(
