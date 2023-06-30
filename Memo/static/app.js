@@ -1,7 +1,8 @@
 function displayMemo(memo){
     const ul = document.querySelector("#memo-ul");
     const li = document.createElement("li");
-    li.innerText = `[id:${memo.id}] ${memo.content}`;
+    //li.innerText = `[id:${memo.id}] ${memo.content}`;
+    li.innerText = `[채팅] ${memo.content}`;
     ul.appendChild(li);
 }
 
