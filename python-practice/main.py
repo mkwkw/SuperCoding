@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
+from pydantic import BaseModel #request body 만들 때, 사용
 
 app = FastAPI()
 
