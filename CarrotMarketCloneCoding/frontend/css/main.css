@@ -15,7 +15,7 @@ main{
     align-items: center;
     width: 150px;
     height: 150px;
-    border: 1px solid rgba(0,0,0,0.1); /*rgba Åõ¸íµµ Á¶Àý °¡´É*/
+    border: 1px solid rgba(0,0,0,0.1); /*rgba ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½*/
     border-radius: 12px;
     margin-right: 20px;
 }
@@ -55,6 +55,7 @@ main{
     border-radius: 25px;
     font-size: 15px;
     box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+    text-decoration: none; /*ë°‘ì¤„ ì—†ì• ê¸°*/
 }
 
 .write-btn:hover{
