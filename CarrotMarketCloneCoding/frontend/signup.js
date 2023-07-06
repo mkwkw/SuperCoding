@@ -25,8 +25,9 @@ const handleSubmit = async (event) => {
       method: "post",
       body: formData,
     });
-    const data = await res;
-    if(res==="200") {
+    const data = await res.json();
+    console.log(data);
+    if(data==="200") {
       // div.innerText="회원가입이 성공했습니다.";
       // div.style.color = "blue";
       alert("회원가입 성공");
