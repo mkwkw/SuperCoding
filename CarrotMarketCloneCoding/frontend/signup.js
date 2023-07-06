@@ -26,11 +26,17 @@ const handleSubmit = async (event) => {
       body: formData,
     });
     const data = await res;
-    if(res==="200") div.innerText="회원가입이 성공했습니다.";
+    if(res==="200") {
+      // div.innerText="회원가입이 성공했습니다.";
+      // div.style.color = "blue";
+      alert("회원가입 성공");
+      window.location.pathname = "/login.html"; //회원가입하면 로그인페이지로 이동
+    };
   } 
   else {
     div.innerText = "비밀번호가 같지 않습니다.";
-  }
+    div.style.color = "red";
+    }
 };
 
 form.addEventListener("submit", handleSubmit);
