@@ -16,6 +16,9 @@ const handleSubmit = async (event) => {
 
   const data = await res.json();
   accessToken = data.access_token;
+  window.localStorage.setItem('token', accessToken);
+  //window.sessionStorage.setItem('token', accessToken);
+  
 
   const infoDiv = document.querySelector("#info");
   infoDiv.innerText = "로그인 성공";
