@@ -16,8 +16,8 @@ const handleSubmit = async (event) => {
 
   const data = await res.json();
   accessToken = data.access_token;
-  window.localStorage.setItem('token', accessToken);
-  //window.sessionStorage.setItem('token', accessToken);
+  window.localStorage.setItem('token', accessToken); //로컬스토리지
+  //window.sessionStorage.setItem('token', accessToken); //세션스토리지
   
 
   const infoDiv = document.querySelector("#info");
